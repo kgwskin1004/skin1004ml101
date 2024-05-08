@@ -25,4 +25,14 @@ $$
 a\log_e\left(1+ \frac{\text{view}}{\text{cost}}\right) + b\log_e\left(1 + \frac{\text{saved}}{\text{cost}}\right) + c\log_e\left(1+\frac{\text{comment}}{\text{cost}}\right) + d\log_e\left(1+\frac{\text{like}}{\text{cost}}\right) + e\log_e\left(1+\frac{\text{share}}{\text{cost}}\right)
 $$
 
-Specifically, we aim to predict the values of \( a \), \( b \), \( c \), \( d \), and \( e \). To achieve this, we'll explore several approaches, including least squares and multi-layer perceptron techniques.
+Specifically, we aim to predict the values of \( a \), \( b \), \( c \), \( d \), and \( e \). To achieve this, we'll use gradient descent.
+
+
+## Let's practice! 🚀
+1. List hyperparameters for each model.
+2. Implement Transformer model for Problem 1. LSTM is implemented for your reference.
+3. Apply the model implemented in Problem 1 to non-paid influencer data.
+
+## Now, it's time to apply this for SKIN1004! 🌟
+1. Predict the next month revenue based on the past page view count.
+2. Predict the influencer efficiency score for new influencers.
